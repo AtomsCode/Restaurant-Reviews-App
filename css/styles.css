@@ -309,3 +309,27 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+/* Media Queries */
+/* Small size screen */
+@media screen and (max-width: 420px)
+{
+
+}
+
+/* Mid size screen */
+@media screen and (max-width: 720px) {
+
+}
+
+/* large size screen */
+@media screen and (min-width: 721px) {
+
+
+}
+
+/* Big size screen */
+@media screen and (min-width: 1300px) {
+
+
+}
