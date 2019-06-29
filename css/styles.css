@@ -1,11 +1,15 @@
 @charset "utf-8";
 
 /* CSS Document */
-body, td, th, p {
+body,  {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10pt;
+  font-size: 3.2vw;
   color: #333;
   line-height: 1.5;
+}
+
+p , td, th{
+font-size: 1.0vw;
 }
 
 body {
@@ -84,7 +88,7 @@ nav h1 a {
   list-style: none;
   background-color: #eee;
   margin: 0;
-  width: calc(50% - 80px);
+  width:100%;
 }
 
 /* Display list items side by side */
@@ -113,7 +117,7 @@ nav h1 a {
 
 /* ====================== Map ====================== */
 #map {
-  height: 400px;
+  height: 350px;
   width: 100%;
   background-color: #ccc;
 }
@@ -316,6 +320,11 @@ nav h1 a {
 
 
 @media screen and (max-width: 420px) {
+
+  p , td, th{
+  font-size: 3.0vw;
+  }
+
   #restaurants-list {
     padding-left: 0px;
   }
@@ -331,6 +340,7 @@ nav h1 a {
 }
 
 @media screen and (max-width: 760px) {
+
   #restaurant-list {
     padding-bottom: 150px;
   }
@@ -365,6 +375,11 @@ nav h1 a {
 }
 
 @media screen and (min-width: 760px) {
+
+  p , td, th{
+  font-size: 1.5vw;
+  }
+
   #restaurant-container,
   #reviews-container {
     width: 50%;
