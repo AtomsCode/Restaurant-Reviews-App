@@ -19,14 +19,16 @@ self.addEventListener('install', event => {
   // waitUntil, either it complete or fail Results
 
   event.waitUntil(
+
     //open a cache by using caches.open
     caches.open(staticCacheName).then(cache => {
 
-      // get from cache by use cache.match(request)
-        return cache.addAll(urlsToCache);
-      }).catch(err => {
-          console.log(err);
-      })
+			// get from cache by use cache.match(request)
+			return cache.addAll(urlsToCache);
+
+	      }).catch(err => {
+	          console.log(err);
+	      })
   );
 });
 
