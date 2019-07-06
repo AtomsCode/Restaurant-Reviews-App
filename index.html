@@ -21,12 +21,12 @@
   <main id="maincontent" role="main">
 
       <section id="map-container" aria-label="MapBox API map">
-        <div id="map"></div>
+        <div id="map" role="application" aria-label="Location">
       </section>
 
       <section>
         <div class="filter-options">
-          
+
               <h2 tabindex="0" id="filter">Filter Results</h2>
 
               <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
